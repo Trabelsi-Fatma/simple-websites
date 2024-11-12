@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+    <title>enregistrements</title>
+    <script langage="javascript" src="verif1.js"></script>
+    <style type="text/css">
+
+#e {
+  font-weight: bold;
+  color: #dc0000;
+}
+
+#pr {
+  color: #006600;
+  font-weight: bold;
+}
+
+#n {
+  font-weight: bold;
+  color: #006600;
+}
+
+#p {
+  font-weight: bold;
+  color: black;
+}
+
+#g {
+  color: #006600;
+  font-weight: bold;
+}
+
+#v {
+  color: #006600;
+  font-weight: bold;
+}
+
+#pp {
+  color: #006600;
+  font-weight: bold;
+}
+.cc{
+   border: width 3px;
+   border-radius: 5px ;
+   background-color: yellow;
+   font-size: 16px;
+}
+</style></head>
+  <body>
+    <form onsubmit="return verif1()">
+      <fieldset> <legend id="e"> enregistrements d'un testeur</legend> <br>
+          n permis: <input class="cc"  id="pp" type="text" name='num'><br>
+          nom:<input class="cc" type="text" id="n"name="nom"><br>
+          prenom:<input class="cc"type="text"id="p"name"pren"><br>
+          genre:
+          <input id="fe" name="aa" type="radio">feminin
+          <input id="ma" name="aa" type="radio">masculin<br>
+        <label><br>ville:</label>
+        <select>
+          <option> choisir une ville</option>
+          <option id="ga"> Gafsa</option>
+          <option id="k"> Kef</option>
+          <option id="s"> Sousse</option>
+          <option id="t"> Tunis</option>
+        </select>
+        <br>
+        <br>
+        <input  type="submit" value="ajouter">
+        <input value="annuler" type="reset"><br>
+      </fieldset>
+    </form>
+  </body>
+</html>
